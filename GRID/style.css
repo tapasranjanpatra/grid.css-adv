@@ -1,0 +1,32 @@
+.container{
+    height:700px;
+    border:1px solid red;
+    background-color:yellow;
+    display: grid;
+   /* grid-template-columns:300px 300px 300px ;
+   grid-template-rows:250px 600px ;
+   grid-template-areas: 
+   "hd hd hd hd hd hd hd hd"
+   "side side side main main main main main"
+   "ft ft ft ft ft ft ft ft ";
+ */
+ grid-gap: 10px;
+ grid-template-rows: repeat();
+ grid-template-columns: repeat(4,1fr);
+}
+  .box{
+    border: 1px solid green;
+    background-color: aqua;
+ }
+  /* #header{
+    grid-area: ft;
+ }
+  #content{
+    grid-area: main;
+ }
+  #sidebar{
+grid-area: side;
+ }
+ #footer{
+    grid-area: hd; 
+ }     */ 
